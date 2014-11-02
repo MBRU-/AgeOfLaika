@@ -34,19 +34,19 @@ class ViewController: UIViewController {
         let dogAgeFactor1 = 10.5
         let dogAgeFactor2 = 4.0
         if !enterNewAgeTextField.text.isEmpty {
-            var dateEntryDouble = Double((enterNewAgeTextField.text as NSString).doubleValue)
+            let dateEntryDouble = Double((enterNewAgeTextField.text as NSString).doubleValue)
+            var realDogYears = 0.0
             if dateEntryDouble > 2.0 {
-                dateEntryDouble -= 2.0
-                dateEntryDouble *= dogAgeFactor2
-                dateEntryDouble += (dogAgeFactor1 * 2)
+                realDogYears =  (dogAgeFactor1 * 2) + (dateEntryDouble-2) * dogAgeFactor2
  
             } else {
-                dateEntryDouble *= dogAgeFactor1
+                realDogYears = dateEntryDouble * dogAgeFactor1
  
             }
             enterNewAgeTextField.text = ""
-            calculateAgeLabel.text = "Dog's age of \(dateEntryDouble)"
+            calculateAgeLabel.text = "Dog's age of \(realDogYears)"
             calculateAgeLabel.hidden = false
+            enterNewAgeTextField.resignFirstResponder()
             
         }
         calculateButtonRef.hidden = true
