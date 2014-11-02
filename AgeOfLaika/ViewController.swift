@@ -31,11 +31,21 @@ class ViewController: UIViewController {
 
     @IBAction func calculateAgeButton(sender: UIButton) {
 
-        let dogAgeFactor = 7.0
+        let dogAgeFactor1 = 10.5
+        let dogAgeFactor2 = 4.0
         if !enterNewAgeTextField.text.isEmpty {
-            let dateEntryInt = Double((enterNewAgeTextField.text as NSString).doubleValue)
+            var dateEntryDouble = Double((enterNewAgeTextField.text as NSString).doubleValue)
+            if dateEntryDouble > 2.0 {
+                dateEntryDouble -= 2.0
+                dateEntryDouble *= dogAgeFactor2
+                dateEntryDouble += (dogAgeFactor1 * 2)
+ 
+            } else {
+                dateEntryDouble *= dogAgeFactor1
+ 
+            }
             enterNewAgeTextField.text = ""
-            calculateAgeLabel.text = "Dog's age of \(dateEntryInt * dogAgeFactor)"
+            calculateAgeLabel.text = "Dog's age of \(dateEntryDouble)"
             calculateAgeLabel.hidden = false
             
         }
@@ -49,7 +59,7 @@ class ViewController: UIViewController {
         
         calculateButtonRef.hidden = false
         calculateAgeLabel.text = ""
-        println("change in entry field")
+ 
         }
     }
 

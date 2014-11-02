@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56A6D597-09D9-4C6D-BDDA-82F4C28AAE43</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AgeOfLaika</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>94678E29B3285F89EDE28F549A8B4CC91B94A17A</key>
+		<string>https://github.com/MBRU-/AgeOfLaika.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AgeOfLaika.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>94678E29B3285F89EDE28F549A8B4CC91B94A17A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MBRU-/AgeOfLaika.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>94678E29B3285F89EDE28F549A8B4CC91B94A17A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94678E29B3285F89EDE28F549A8B4CC91B94A17A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AgeOfLaika</string>
+		</dict>
+	</array>
+</dict>
+</plist>

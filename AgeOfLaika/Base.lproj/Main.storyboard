@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="afl-oS-vIZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="O2t-se-VG3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dog's age Calulator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9y-Tp-SIc">
